@@ -6,9 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "build:gh-pages": "ng build --prod --output-path=dist/app-test-ci-cd-github --base-href=/app-test-ci-cd-github/",
-    "deploy:gh-pages": "npx angular-cli-ghpages --dir=dist/app-test-ci-cd-github"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
