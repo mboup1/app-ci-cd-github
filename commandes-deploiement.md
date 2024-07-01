@@ -10,7 +10,7 @@ repository/setting/actions/general
 ng build --output-path=dist --base-href=/app-test-ci-cd-github/
 npx angular-cli-ghpages --dir=dist/browser
 
-https://mboup1.github.io/app-test-ci-cd-github/
+https://mboup1.github.io/app-ci-cd-github-angular/
 
 
 
