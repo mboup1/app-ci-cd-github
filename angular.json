@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app-test-ci-cd-github-angular": {
+    "app-test-ci-cd-github": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app-test-ci-cd-github-angular:build:production"
+              "buildTarget": "app-test-ci-cd-github:build:production"
             },
             "development": {
-              "buildTarget": "app-test-ci-cd-github-angular:build:development"
+              "buildTarget": "app-test-ci-cd-github:build:development"
             }
           },
           "defaultConfiguration": "development"
